@@ -31,3 +31,12 @@ html{
     flex-wrap: wrap;
 }
 
+/* Animation */
+@keyframes fadeIn{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
