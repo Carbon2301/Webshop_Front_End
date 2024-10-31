@@ -3,6 +3,7 @@
     --black-color: #000;
     --text-color: #333;
     --primary-color: #ee4d2d;
+    --border-color: #dbdbdb;
 }
 
 * {
@@ -73,10 +74,46 @@ html{
 }
 
 .modal__body{
-    
-    background-color: var(--white-color);
     margin: auto;
     position: relative;
     z-index: 2;
+}
+
+/* Button style  */
+
+.btn{
+    min-width: 142px;
+    height: 36px;
+    text-decoration: none;
+    border: none;
     border-radius: 5px;
+    font-size: 1.4rem;
+    outline: none;
+    cursor: pointer;
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 12px;
+}
+
+.btn.btn--normal:hover{
+    background-color: rgba(0, 0 , 0, 0.1);
+}
+
+.btn--size-s{
+    height: 32px;
+    font-size: 12px;
+    padding: 0 8px;
+
+}
+
+.btn.btn--primary {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+}
+
+.btn.btn--disabled{
+    color: #949494;
+    cursor: default;
 }
