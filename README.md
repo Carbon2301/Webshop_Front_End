@@ -17,21 +17,21 @@
 
 <div class="page-header">
     <h4>Homepage</h4>
-    <img src="./Screenshots/homepage.png" title="Homepage" width="300"/>
+    <img src="./Screenshots/homepage.png" title="Homepage" width="100%"/>
 </div>
 
 <div class="signup">
     <h4>Sign Up</h4>
-    <img src="./Screenshots/signup.png" title="Sign Up" width="300"/>
+    <img src="./Screenshots/signup.png" title="Sign Up" width="100%"/>
 </div>
 
 <div class="signin">
     <h4>Sign In</h4>
-    <img src="./Screenshots/signin.png" title="Sign In" width="300"/>
+    <img src="./Screenshots/signin.png" title="Sign In" width="100%"/>
 </div>
 
 <div class="footer">
     <h4>Footer</h4>
-  <img src="./Screenshots/footer.png" title="Footer" width="300"/>
+  <img src="./Screenshots/footer.png" title="Footer" width="100%"/>
 </div>
 
