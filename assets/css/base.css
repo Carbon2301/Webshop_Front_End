@@ -215,3 +215,43 @@ html{
     color: var(--primary-color);
 
 }
+
+
+/* pagination */
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.pagination-item{
+    margin: 0 12px;
+}
+
+.pagination-item--active .pagination-item__link{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.pagination-item--active .pagination-item__link:hover{
+    background-color: #cf4b31;
+}
+
+.pagination-item__link{
+    --height:30px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 2rem;
+    color: #939393;
+    min-width: 40px;
+    height: 30px;
+    line-height: var(--height);
+    border-radius: 2px;
+}
+
+.pagination-item__icon{
+
+}
