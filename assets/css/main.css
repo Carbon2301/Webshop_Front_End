@@ -432,7 +432,93 @@
 
 .header__cart-wrap:hover .header__cart-list{
     display: block;
+    
 }
+
+.header__cart-heading{
+    text-align: left;
+    margin: 8px 0px 8px 12px;
+    font-size: 1.4rem;
+    color: #999;
+    font-weight: 400;
+}
+
+.header__cart-list-item{
+    padding-left: 0;
+    list-style: none;
+}
+
+.header__cart-item{
+    display: flex;
+    align-items: center;
+}
+
+.header__cart-item:hover{
+    background-color: #f8f8f8;
+}
+
+.header__cart-img{
+    width: 42px;
+    height: 42px;
+    margin: 12px;
+}
+
+.header__cart-item-info{
+    width: 100%;
+    margin-right: 12px;
+}
+
+.header__cart-item-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header__cart-item-name{
+    font-size: 1.4rem;
+    font-weight: 430;
+    margin: 0;
+}
+
+.header__cart-item-price{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--primary-color);
+}
+
+.header__cart-item-multiply{
+    font-size: 0.9rem;
+    margin: 0 4px;
+    color: #757575;
+}
+
+.header__cart-item-quantity{
+    color: #757575;
+    font-size: 1.2rem;
+}
+
+.header__cart-item-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__cart-item-discription{
+    color: #757575;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.header__cart-item-remove:hover{
+    cursor: pointer;
+    color: var(--primary-color);
+}
+
+.header__cart-item-remove{
+    color: var(--text-color);
+    font-size: 1.4rem;
+}
+
 
 .header__cart-list{
     position: absolute;
@@ -444,6 +530,7 @@
     box-shadow: 0 2px 10px #ccc;
     margin-top: 10px;
     cursor: default;
+    display: none;
 }
 
 .header__cart-list::after {
@@ -455,13 +542,9 @@
     border-width: 20px;
     border-style: solid;
     border-color: transparent transparent var(--white-color) transparent;
-    opacity: 0;
-    transition: opacity 0s ease;
+    
 }
 
-.header__cart-list:hover::after {
-    opacity: 1;
-}
 
 .header__cart-list--no-cart{
     padding: 28px 0;
@@ -484,6 +567,15 @@
     display: none;
     font-size: 1.4rem;
     margin-top: 14px;
+}
+
+.header__cart-view-cart{
+    float: right;
+    margin: 0 12px 12px 0;
+}
+
+.header__cart-view-cart:hover{
+    background-color: #ca4f4f;
 }
 
 .header__cart-notice{
