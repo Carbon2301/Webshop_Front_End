@@ -390,13 +390,13 @@
 }
 
 .header__logo{
-    width: 200px;
+    width: 150px;
     text-align: center;
-    
+    margin:0 15px 10px 0;
 }
 
 ..header__logo-img{
-    width: 150px;
+    width: 100px;
     color: var(--white-color);
    
 }
